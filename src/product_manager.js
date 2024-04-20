@@ -74,19 +74,3 @@ export class ProductManager {
     }
 };
 
-
-
-// const main = async () => {
-//     const pManager = new ProductManager('./products.json');
-
-//     console.log( await pManager.getProducts())
-//     await pManager.addProduct({title: "producto prueba", description: "Este es un producto prueba", price: 200, thumbnail: "Sin imagen", code: "abc123", stock: 25});
-//     console.log( await pManager.getProducts())
-//     console.log( await pManager.getProductById(0))
-//     await pManager.updateProduct(22, {code: 'caca'});
-//     console.log( await pManager.getProducts())
-//     await pManager.deleteProduct(22);
-//     console.log( await pManager.getProducts())
-// }
-
-// main();
